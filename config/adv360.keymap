@@ -64,7 +64,7 @@
  &trans             &trans      &trans       &trans        &trans       &trans                &none                                                   &none    &kp PAGE_UP        &kp HOME    &kp UP_ARROW          &kp END   &trans   &trans
  &trans  &macro_select_all      &trans       &trans        &trans       &trans                &none  &trans  &trans                  &trans  &trans   &none  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
  &trans        &macro_undo  &macro_cut  &macro_copy  &macro_paste  &macro_redo                               &trans                  &trans                         &trans          &trans          &trans           &trans   &trans   &trans
- &trans             &trans      &trans       &trans        &trans                         &kp LCTRL  &trans  &trans                  &trans  &trans  &trans                         &trans          &trans           &trans   &trans   &trans
+ &trans             &trans    &kp CAPS       &trans        &trans                         &kp LCTRL  &trans  &trans                  &trans  &trans  &trans                         &trans          &trans           &trans   &trans   &trans
             >;
         };
 
