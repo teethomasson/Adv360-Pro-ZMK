@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1             &kp F2      &kp F3       &kp F4        &kp F5       &kp F6               &tog 1                                                   &mo 3         &kp F7          &kp F8          &kp F9          &kp F10  &kp F11  &kp F12
- &trans             &trans      &trans       &trans        &trans       &trans                &none                                                   &none    &kp PAGE_UP        &kp HOME    &kp UP_ARROW          &kp END   &trans   &trans
- &trans  &macro_select_all      &trans       &trans        &trans       &trans                &none  &trans  &trans                  &trans  &trans   &none  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
- &trans        &macro_undo  &macro_cut  &macro_copy  &macro_paste  &macro_redo                               &trans                  &trans                         &trans          &trans          &trans           &trans   &trans   &trans
- &trans             &trans    &kp CAPS       &trans        &trans                         &kp LCTRL  &trans  &trans                  &trans  &trans  &trans                         &trans          &trans           &trans   &trans   &trans
+ &kp F1             &kp F2        &kp F3            &kp F4        &kp F5       &kp F6               &tog 1                                                   &mo 3         &kp F7          &kp F8          &kp F9          &kp F10  &kp F11  &kp F12
+ &trans             &trans  &macro_close            &trans        &trans       &trans                &none                                                   &none    &kp PAGE_UP        &kp HOME    &kp UP_ARROW          &kp END   &trans   &trans
+ &trans  &macro_select_all   &macro_save  &macro_duplicate        &trans       &trans                &none  &trans  &trans                  &trans  &trans   &none  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
+ &trans        &macro_undo    &macro_cut       &macro_copy  &macro_paste  &macro_redo                               &trans                  &trans                         &trans          &trans          &trans           &trans   &trans   &trans
+ &trans             &trans      &kp CAPS            &trans        &trans                         &kp LCTRL  &trans  &trans                  &trans  &trans  &trans                         &trans          &trans           &trans   &trans   &trans
             >;
         };
 
